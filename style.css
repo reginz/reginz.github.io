@@ -1,15 +1,15 @@
 *{
     font-family: 'Inconsolata';
     color: rgb(49, 49, 49);
-    
+    margin:0%;
 }
 
-nav ul {
+nav ul{
     width: 100dw;
     height: 50px;
     background-color: #FFae78;
-    margin-top: -9px;
-    margin-left: -10px;
+    padding-top: -9px;
+    
     
 }
 nav ul li{
@@ -25,7 +25,7 @@ nav ul li a{
 }
 .main{
     padding-top: 10px;
-    padding-left: 20px;
+    padding-left: 5%;
     padding-right: 20px;
 }
 .main p{
@@ -34,6 +34,7 @@ nav ul li a{
 }
 .random{
     padding-top: 20px;
+    padding-left: 3.5%;
 }
 
 .random a{
