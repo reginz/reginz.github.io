@@ -47,16 +47,7 @@ function Navbar() {
                 Home
               </Link>
             </li>
-            <li className='nav-item'>
-              <AnchorLink href ="#card"
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                What We Do
-                
-              </AnchorLink>
-            </li>
-
+  
             <li className='nav-item'>
               <Link
                 to='/blog'

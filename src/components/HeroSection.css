@@ -41,7 +41,7 @@ img {
   font-size: 100px;
   margin-top: -100px;
   text-align: left;
-  padding-left: 40px;
+  padding-left: 10%;
 }
 
 .hero-container > p {
@@ -51,13 +51,13 @@ img {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
   text-align: left;
-  padding-left: 40px;
-  margin-bottom: 40px;
+  padding-left: 10%;
+  margin-bottom: 5%;
 }
 
 .hero-btns {
   margin-top: 32px;
-  padding-left: 40px;
+  padding-left: 10%;
 }
 
 .hero-btns .btn {
