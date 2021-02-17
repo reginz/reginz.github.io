@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+   padding: 0;
+}
+.navbar-container{
+    height: max-content;
+    display: flex;
+    flex-direction: column ;
+}
+.navbar-container ul{
+    display: flex;
+    height: 3em;
+    z-index: 100;
+    position: relative;
+}
+.navbar-container li{
+    list-style: none;
+    display: inline-flex;
+    width: 25%;
+    justify-content: center;
+    padding-top: .6em;
+}
+.navbar-container li img{
+    object-fit: contain;
+}
+@media screen and (max-width:827px ){
+   .navbar-container li{
+       height: 60px;
+   }
+}
+@media screen and (max-width: 430px ){
+    .navbar-container li{
+        font-size: 15px;
+    }
+}
