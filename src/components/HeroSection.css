@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg-radius{
+    background-color: #ededed;
+}
+.hero-container img{
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;   
+    position: relative;
+    border-radius: 0 0 40px;
+}
+.hero-container{
+    object-fit: contain;
+    display: flex;
+    flex-direction: column ;
+    box-sizing: border-box;
+    margin-top: -90px;
+    height: 100%;
+    background-color: rgb(59,59,59);
+    box-shadow: 8px 0 5px -6px  black;
+    border-radius: 0 0 40px;
+}
+.paragraph-wrapper{
+    max-height: 500px;
+    margin-top: -70vh;
+    position: sticky;
+}
+
+.paragraph{
+    color: white;
+    text-align: left;
+    padding: 0 14em 0 3em;
+    font-size:30px;
+    position: relative;
+   
+}
+
+.hero-banner hr{
+    height: .1px;
+    width: 300px;
+    border: 1.3px solid #8e8e8e;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 2em;
+
+}
+
+
+ button{
+    margin: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    padding: 1em 7em 7em 7em;
+}
+@media screen and (max-height: 1370px) and (max-width: 1025px){
+    .hero-container {
+        height: 80vh;
+    }
+    .hero-banner{
+        display: flex;
+        align-items: center;
+    }
+}
+@media  screen and (max-width: 770px) {
+    .paragraph {
+        padding: 0 3em 0 3em;
+        font-size: 3vh;
+    }
+    
+}
+@media screen and (max-width: 420px){
+    .paragraph p{
+        font-size:16px ;
+        margin-top: 1em;
+        text-align: right;
+    }
+    .hero-button{
+        padding: .6em 5em 5em 5em;
+        float: right;
+    }
+    .hero-banner hr{
+       width: 50vw;
+       float: right;
+    }
+    .hero-container img{
+        object-fit: cover;
+        transform: rotate(270deg);
+        height: 100vh;
+        width: 200vw;
+        margin-left: -150px;
+        overflow: hidden;
+    }
+    .hero-container{
+        overflow: hidden;
+    }
+}
