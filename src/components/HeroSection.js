@@ -1,0 +1,49 @@
+import React, { Component } from 'react';
+import './HeroSection.css';
+import './UniversalClasses.css'
+import './Dot.css';
+
+function HeroSection (){
+    
+        return (
+            <div className="bg-radius">
+            <div className="hero-container">
+               
+                    <img src="./images/Dark_background.png"/>
+                   
+                    <div className="hero-banner">
+                        <div className="paragraph-wrapper">
+                            
+                        
+                        <div className="paragraph">
+                            <p>
+                                Our quest is to build ultimate intelligent agent. Intelligent
+                                agents are software entities where we put AI in action. 
+                                An ultimate intelligent agent can collaborate without
+                                us noticing, build without instructions and carry all human 
+                                knowledge.
+                            </p>
+                            
+                            <hr></hr>
+
+                                <button className="hero-button button" style={{backgroundImage:"url(/images/button1_salt.png)"}}>
+                                    <a href="#">
+                                        Sign Up
+                                    </a>
+                                    <div className="dot-general1 dot13"></div>
+                                    <div className="dot-button dot12"></div>
+                                </button>
+                        </div>
+                        
+                        </div>
+                     
+                </div>
+                
+                
+            </div>
+            </div>
+        );
+    }
+
+
+export default HeroSection;
