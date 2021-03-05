@@ -1,0 +1,22 @@
+.button{
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    margin-top: 1.5em;
+    z-index: 100;
+} 
+.button a {
+    text-decoration: none;
+    color: #545e65;
+    cursor: pointer;
+    z-index: 1;
+}
+hr{
+    height: .1px;
+    width: 300px;
+    border: 1.3px solid #8e8e8e;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 2em;
+}
