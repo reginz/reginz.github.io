@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './HeroSection.css';
 import './UniversalClasses.css'
 import './Dot.css';
-
+import {Link} from 'react-router-dom';
 function HeroSection (){
     
         return (
@@ -29,9 +29,9 @@ function HeroSection (){
                             <hr></hr>
 
                                 <button className="hero-button button" style={{backgroundImage:"url(/images/button1_salt.png)"}}>
-                                    <a href="/datacollection">
+                                    <Link to="/datacollection">
                                         Learn More
-                                    </a>
+                                    </Link>
                                     <div className="dot-general1 dot13"></div>
                                     <div className="dot-button dot12"></div>
                                 </button>
