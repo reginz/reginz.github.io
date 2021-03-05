@@ -39,6 +39,14 @@ function DataLanding () {
                     
                 </div> */}
                 <div className="crowdsource-container">
+                <div className="dot-general2 dot2"></div>
+                        <div className="dot-general1 dot3"></div>
+                        <div className="dot-general3 dot4"></div>
+                        <div className="dot-general3  dot5"></div>
+                        <div className="dot-general3  dot6"></div>
+                        <div className="dot-general2  dot7"></div>
+                        <div className="dot-general1  dot8"></div>
+                        <div className="dot-general3  dot9"></div>
                     <div className="crowdsource-wrapper">
                     <div className="crowdsource-image desktop">
                             <img src="./images/robots_last.png"></img>
