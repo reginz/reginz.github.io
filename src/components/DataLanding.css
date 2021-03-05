@@ -64,9 +64,7 @@
         height: 30%;
         align-self: center;
     }
-    .crowdsource-container{
-        max-height: initial;
-    }
+    
     .crowdsource-image img {
         height: auto;
         width: 90%;
