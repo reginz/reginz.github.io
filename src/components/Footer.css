@@ -7,7 +7,7 @@
 .footer-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: none;
+    grid-template-rows: 100px;
     align-items:center;
     top: 35% ;
     position: relative;
@@ -36,7 +36,7 @@
 
 @media screen and (max-width: 600px){
     .footer-container{
-        grid-template-columns:none;
+        grid-template-columns:100%;
         grid-template-rows: 1fr 1fr 1fr;
         gap:15px;
     }
