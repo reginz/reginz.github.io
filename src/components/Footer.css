@@ -2,7 +2,6 @@
     height: max-content;
     background-color: #b1b1b2;
     padding: 3em 0;
-    max-height: 150px;
 }
 .footer-container{
     display: grid;
@@ -11,7 +10,6 @@
     align-items:center;
     top: 35% ;
     position: relative;
-    max-height: 50px;
 }
 .footer-logo{
     align-self: center;
