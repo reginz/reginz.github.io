@@ -36,6 +36,7 @@
         grid-template-columns:100%;
         grid-template-rows: 1fr 1fr 1fr;
         gap:15px;
+        height:max-content;
     }
     .social-icons img{
         height:calc(2vw + 3vh);
