@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg-radius-data{
+    background-color: #545e65;
+}
+.mobile{
+    display: none;
+}
+.crowdsource-container{
+    background-image: url(./aixlanding_yellow.jpg);
+    background-size: cover;
+    height: 80vh;
+    background-color: #fff;
+    position: relative;
+    border-radius: 0 0 40px;
+    box-shadow: 8px 0 5px -6px  black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 1000px;
+}
+.crowdsource-wrapper{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+.crowdsource-image{
+    float: left;
+    width: 50%;
+}
+.crowdsource-image img{
+    height: 90%;
+    width: 90%;
+}
+
+.crowdsource-landning-text{
+    color: #ededed;
+    float: right;
+    width: 40%;
+    text-align: right;
+    font-size: calc(1.3vw + 2.2vh);
+    font-weight: 400;
+}
+.crowdsource-landning-text hr{
+    background: #ededed;
+    border:5px #ededed;
+    float: right;
+    width: calc(30vw + 2vh);
+}
+@media screen and (max-width:1024px){
+    .crowdsource-container{
+        height: 55vh;
+    }
+}
+@media screen and (max-width: 768px){
+    .crowdsource-container{
+        height: 65vh;
+    }
+    .crowdsource-wrapper{
+        flex-direction: column-reverse;
+        
+    }
+    .crowdsource-landning-text{
+        width: 90%;
+        height: 30%;
+        align-self: center;
+        position: relative;
+        margin: 2vw;
+    }
+    /* .crowdsource-container{
+        max-height: initial;
+    } */
+    .crowdsource-image img {
+        height: auto;
+        width: 90%;
+        max-height: 100%;
+    }
+    .mobile{
+        display: initial;
+        
+    }
+    
+    .desktop {
+        display: none;
+
+    }
+}
+@media screen and (max-width: 540px){
+    .crowdsource-container{
+        height: 90vh;
+    }
+    .crowdsource-landning-text{
+        height: 30%;
+        font-size: calc(2.2vw + 1.3vh);
+    }
+    .crowdsource-image img {
+        height: auto;
+        width: 100%;
+        max-height: 100%;
+    }
+    .crowdsource-container{
+        height: 65vh;
+    }
+   
+}
