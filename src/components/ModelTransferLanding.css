@@ -1,0 +1,92 @@
+.model-landing{
+    background-image: url(./aixlanding_green_LQ.png);
+    background-size: cover;
+    height: 80vh;
+    max-height: 1000px;
+    position: relative;
+    border-radius: 0 0 40px;
+    box-shadow: 8px 0 5px -6px  black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg-radius{
+    overflow: hidden;
+}
+.model-wrapper{
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.model-mobile-wrapper{
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.model-landing img{
+    height: 65%;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    position: relative;
+}
+.model-mobile{
+    display: none;
+    background-image: url(./aixlanding_green_LQ.png);
+    background-size: cover;
+    height: 90vh;
+    position: relative;
+    border-radius: 0 0 40px;
+    box-shadow: 8px 0 5px -6px  black;
+    
+}
+.model-mobile img{
+    height: 100%;
+}
+.model-mobile-wrapper{
+   height: 90%;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    position: relative;
+}
+@media only screen and (device-width: 1024px){
+    .model-landing img{
+        height: auto;
+        width: 100%;
+    }
+    
+}
+@media only screen and (device-width: 1366px){
+    .model-landing img{
+        height: auto;
+        width: 100%;
+    }
+}
+@media only screen and (device-width: 1024px) and (device-height: 1366px){
+    .model-landing{
+        height: 60vh;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    /* For general iPad layouts */
+    .model-landing{
+        display: none;
+    }
+    .model-mobile{
+        display: flex;
+        align-items: center;
+    justify-content: center;
+    height: 55vh;
+    }
+  }
+  @media screen and (max-width: 500px){
+    .model-mobile{
+        height: 90vh;
+    }
+  }
