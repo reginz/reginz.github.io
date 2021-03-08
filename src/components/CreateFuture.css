@@ -2,6 +2,13 @@
     margin: 0;
     padding: 0;
 }
+.cretae-wrapper{
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    display: flex;
+    background-color: #ededed;
+}
 .create-container{
     display: flex;
     flex-direction: row;
@@ -11,10 +18,11 @@
     padding-left: 100px;
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: #ededed;
     z-index: 100;
-    gap: 50px;
+    gap: 100px;
+    max-width: 1900px;
 }
+
 .column{
     display: inline;
 }
@@ -78,7 +86,7 @@
         font-size: calc(1vw + 2vh);
     }
     .column1 h1{
-        font-size: 40px;
+        font-size:  calc(1.3vw + 1.5vh);
     }
 }
 @media screen and (max-width: 420px){
@@ -89,10 +97,11 @@
     .create-container{
         padding-left: 50px;
         padding-right: 50px;
+        gap: 10px;
     }
     .column2 p{
         text-align: right;
-        font-size: calc(1vw + 2vh);
+        font-size:  calc(1.3vw + 1.5vh);
     }
     .column h1{
         font-size: 40px;
