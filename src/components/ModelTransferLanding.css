@@ -14,11 +14,12 @@
     overflow: hidden;
 }
 .model-wrapper{
-    width: 80vw;
+    width: 90vw;
     height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    max-width:1900px;
 }
 .model-mobile-wrapper{
     width: 80vw;
@@ -48,7 +49,7 @@
     height: 100%;
 }
 .model-mobile-wrapper{
-   height: 90%;
+   height: 80%;
     display: flex;
     align-self: center;
     justify-self: center;
@@ -77,6 +78,7 @@
     /* For general iPad layouts */
     .model-landing{
         display: none;
+        
     }
     .model-mobile{
         display: flex;
@@ -85,8 +87,12 @@
     height: 55vh;
     }
   }
-  @media screen and (max-width: 500px){
+  @media screen and (max-width: 600px){
     .model-mobile{
-        height: 90vh;
+        height: 65vh;
+        
+    }
+    .model-mobile-wrapper{
+        height: 70%;
     }
   }
