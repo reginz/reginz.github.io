@@ -5,6 +5,7 @@ import './Dot.css';
 function CreateFuture() {
     
         return (
+            <div className="cretae-wrapper">
             <div className="create-container">
                 <div className="dot-general1 dot1"></div>
                         <div className="dot-general2 dot2"></div>
@@ -40,6 +41,7 @@ function CreateFuture() {
                     </button>
                     
                 </div>
+            </div>
             </div>
         );
     
