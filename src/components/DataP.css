@@ -11,19 +11,23 @@
 }
 .blog-container{
     height: 100vh;
-    position: inherit;
-    padding: 2.3em;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 .blog-parent{
     display: flex;
     flex-direction: row;
     gap: 1em; 
+    align-items: center;
+    justify-content: center;
     color: white;
-    font-size: calc(1vw + 1.1vh);
+    font-size: calc(.8vw + 1vh);
 }
 .neurons img{
-    height: 100vh;
+    height: 82vh;
 }
 .item-container{
     width: 80%;
