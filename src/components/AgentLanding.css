@@ -1,5 +1,5 @@
 .agent-container{
-    font-size: 2vw;
+    font-size: calc(1.3vw + 1vh);
     background: url(./aixlanding_grey.png);
     background-size: cover;
     width: 100%;
@@ -8,6 +8,9 @@
     position: relative;
     border-radius: 0 0 40px;
     box-shadow: 8px 0 5px -6px  black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 .banner-wrapper{
@@ -18,12 +21,14 @@
     position: relative;
     padding:3.2em;
     color:white;
+    max-width: 1900px;
+    
     
 }
 .agent-paragraph{
     position: relative;
-    grid-column: 1/7;
-    grid-row: 1/6;
+    grid-column: 1/8;
+    grid-row: 2/6;
     font-size:1em;
     justify-self: center;
 }
@@ -31,24 +36,20 @@
 .agent-paragraph p{
     text-align:left;
     position: relative;
-    
+    font-size:  calc(1.3vw + 1.3vh);
 }
 .agent-paragraph hr{
     grid-row: 2;
 }
-.agent-paragraph{
-    font-size: calc(1.5vw + 1.1vh);
-}
 .agent-paragraph button{
     padding: 1em 7em 3em 5.5em; 
-}
-.agent-paragraph button{
-    grid-row: 3;
     font-size: calc(.5vw + 1.1vh);
 }
+
 @media screen and (max-width: 1367px){
-    .agent-paragraph{
+    .agent-paragraph {
         grid-row: 2/6;
+        
     }
     .agent-container{
         height: 55vh;
@@ -56,25 +57,27 @@
 }
 
 /* Phone */
-@media  (max-width: 600px){
+@media screen and (max-width: 600px){
     .agent-paragraph{
-        font-size:2.4em ;
         grid-column: 2/8; 
-        grid-row: 3/6;
+        grid-row: 2/8;
     }
     .agent-paragraph p{
         direction:rtl;
         text-align:justify;
+        font-size:  calc(1.3vw + 1.5vh);
     }
     .agent-paragraph button{
-        padding: .6em 6em 5em 4.5em;
-        left:1em;
+        font-size: calc(.5vw + 1.4vh);
+    }
+    button{
+        padding: .6em 4em 4em 4em; 
+        left:6vw;
         position: relative;
+
     }
+    
     .agent-container{
-        top: -8em;
-    }
-    .agent-container{
-        height:90vh;
+        height:65vh;
     }
 }
