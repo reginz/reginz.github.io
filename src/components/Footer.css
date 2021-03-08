@@ -3,6 +3,8 @@
     background-color: #b1b1b2;
     padding: 3em 0;
 }
+
+
 .footer-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -33,13 +35,10 @@
 
 @media screen and (max-width: 600px){
     .footer-container{
-        grid-template-columns:100%;
+        grid-template-columns:none;
         grid-template-rows: 1fr 1fr 1fr;
+        height: max-content;
         gap:15px;
-        height:max-content;
-    }
-    .social-icons{
-        display:intial;
     }
     .social-icons img{
         height:calc(2vw + 3vh);
