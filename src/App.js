@@ -15,6 +15,7 @@ function App() {
   return (
     <> 
       <Router >
+    <Navbar/>
         <Switch >
           <Route exact path='/'  component={Home} />
           <Route path='/agents' component={Agents} />
