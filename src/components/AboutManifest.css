@@ -1,0 +1,38 @@
+.manifest-container{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;   
+    max-height: 1200px;
+    background-color: #ededed;
+}
+.manifest-wrapper{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    height: 100%;
+    max-width: 1900px;
+    align-self: center;
+    justify-self: center;
+    padding-top: 20vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+.manifest-wrapper h5{
+    font-size: calc(1.9vw + 2.6vh);
+    padding-bottom: 1em;
+    color: #272727;
+}
+.manifest-wrapper p{
+    font-size:  calc(.7vw + 1vh);
+    color: #3b3b3b;
+}
+@media screen and (max-width: 600px){
+    .manifest-container{
+        height: 65vh;
+    }
+    .manifest-wrapper{
+        padding-top: 15vh;
+    }
+}
