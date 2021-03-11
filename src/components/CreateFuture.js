@@ -1,7 +1,7 @@
 import React from 'react';
 import './CreateFuture.css';
 import './UniversalClasses.css';
-import './Dot.css
+import './Dot.css;
 import {Link} from 'react-router-dom';
 function CreateFuture() {
     
