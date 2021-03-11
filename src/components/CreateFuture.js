@@ -1,8 +1,9 @@
 import React from 'react';
 import './CreateFuture.css';
 import './UniversalClasses.css';
-import './Dot.css;
+import './Dot.css';
 import {Link} from 'react-router-dom';
+
 function CreateFuture() {
     
         return (
@@ -36,7 +37,9 @@ function CreateFuture() {
                     <hr className="create-hr"></hr>
                     
                     <button className="create-button button" style={{backgroundImage:"url(/images/button2_salt.webp)"}}>
-                        <Link to="/about">About Us</Link>
+                        <Link to="/about">
+                        About Us
+                        </Link>
                         <div className="dot-button dot11"></div>
                         <div className="dot-general2 dot10"></div>
                     </button>
