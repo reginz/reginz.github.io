@@ -6,7 +6,7 @@ import Departments from '../Departments';
 function About () {
     
         return (
-            <div className="data-collection">
+            <div >
                 
                 <AboutManifest/>
                 <Departments/>
