@@ -7,7 +7,7 @@
 }
 .hero-container{
     font-size: calc(1.3vw + 1vh);
-    background: url(./Dark_background.webp);
+    background: url(./Dark_background-min.png);
     background-size: cover;
     width: 100%;
     height: 80vh;   
