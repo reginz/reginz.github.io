@@ -11,7 +11,7 @@ class Departments extends Component {
                             Developement
                         </h2>
                         <p>
-                            Lorem ipsum intelligent agent in AI is the type of Agent that can learn from its past experiences
+                           Our development team responsible for creating ML algorithms, Web and Mobile apps, Agent software, and automation.
                         </p>
                         <div className="departments-button">
                         <button className=" button"
@@ -29,7 +29,7 @@ class Departments extends Component {
                             Research
                         </h2>
                         <p>
-                            Lorem ipsum intelligent agent in AI is the type of Agent that can learn from its past experiences
+                            Our research team responsible for developing and applying experimental methods in Reinforcement Learning and Universal AI.
                         </p>
                         <div className="departments-button">
                         <button className=" button"
