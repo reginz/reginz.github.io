@@ -31,7 +31,7 @@ function HeroSection (){
                             
                             <hr></hr>
 
-                                <button className="hero-button button" style={{backgroundImage:"url(/images/button1_salt.webp)"}}>
+                                <button className="hero-button button" style={{backgroundImage:"url(/images/button1_salt-min.png)"}}>
                                     <Link to="/datacollection">
                                         Learn More
                                     </Link>
