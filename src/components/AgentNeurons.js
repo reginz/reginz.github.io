@@ -7,7 +7,7 @@ function AgentNeurons () {
             <div className="agent-neurons-container">
                 <div className="agent-background">
                     <div className="bg-wrapper">
-                        <img src="../images/intellignet.webp"></img>
+                        <img src="../images/intellignet-min.png"></img>
                         
                     </div>
                     <div className="mobile-agent-text">
