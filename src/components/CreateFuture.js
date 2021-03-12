@@ -36,7 +36,7 @@ function CreateFuture() {
                     </p>
                     <hr className="create-hr"></hr>
                     
-                    <button className="create-button button" style={{backgroundImage:"url(/images/button2_salt.webp)"}}>
+                    <button className="create-button button" style={{backgroundImage:"url(/images/button2_salt-min.png)"}}>
                         <Link to="/about">
                         About Us
                         </Link>
