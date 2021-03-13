@@ -1,0 +1,42 @@
+.deneme-contianer{
+    display: flex;
+    position: relative;
+    height: max-content;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    text-align: center;
+    font-size: calc(1.3vw + 1vh);
+}
+.deneme-wrapper {
+    color: rgb(46, 46, 46);
+    padding: 1em;
+}
+.deneme-wrapper form{
+    padding: 1em 0;
+    
+}
+.deneme-wrapper input{
+    box-sizing: border-box;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 3px solid #b1b1b2;
+    padding: .5em;
+    background: transparent;
+    font-size: calc(.7vw + 1vh);
+
+}
+::placeholder{
+    color: #b1b1b2;
+}
+.deneme-wrapper input:hover{
+    border-bottom-color: #3b3b3b;
+}
+input:focus::placeholder{
+    color: #cecece;
+}
+.deneme-wrapper p{
+    font-size: calc(.7vw + 1vh);
+    padding-top: 2em;
+}
