@@ -16,9 +16,9 @@ class Departments extends Component {
                         <div className="departments-button">
                         <button className=" button"
                                 style={{backgroundImage:"url(/images/button_white.webp)"}}>
-                               
+                                <a href="https://2yrvi8zqw4e.typeform.com/to/lk0NEC93" target="_blank">
                                         Apply
-                                    
+                                </a>
                                     <div className="dot-general1 dot13"></div>
                                     <div className="dot-button dot12"></div>
                                 </button>
@@ -34,11 +34,12 @@ class Departments extends Component {
                         <div className="departments-button">
                         <button className=" button"
                                 style={{backgroundImage:"url(/images/button_white.webp)"}}>
-                               
+                               <a href="https://2yrvi8zqw4e.typeform.com/to/lk0NEC93" target="_blank">
                                         Apply
-                                    
+                                </a>
                                     <div className="dot-general1 dot13"></div>
                                     <div className="dot-button dot12"></div>
+                                    
                                 </button>
                         </div>
                     </div>
