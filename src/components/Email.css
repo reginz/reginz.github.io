@@ -12,31 +12,17 @@
     color: rgb(46, 46, 46);
     padding: 1em;
 }
-.deneme-wrapper form{
-    padding: 1em 0;
-    
+.email-button button{
+    color: rgb(48, 48, 48);
+    font-size:  calc(.7vw + 1vh);
+    padding: .9em 6em 3em 4.5em;    
 }
-.deneme-wrapper input{
-    box-sizing: border-box;
-    border-left: none;
-    border-top: none;
-    border-right: none;
-    border-bottom: 3px solid #b1b1b2;
-    padding: .5em;
-    background: transparent;
-    font-size: calc(.7vw + 1vh);
-
-}
-::placeholder{
-    color: #b1b1b2;
-}
-.deneme-wrapper input:hover{
-    border-bottom-color: #3b3b3b;
-}
-input:focus::placeholder{
-    color: #cecece;
+.email-button {
+    position: relative;
+    justify-content: center;
+    display: flex;
+    padding-top: 1em;
 }
 .deneme-wrapper p{
-    font-size: calc(.7vw + 1vh);
     padding-top: 2em;
 }
