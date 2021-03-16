@@ -28,9 +28,14 @@ function Footer (){
                             <li><Link to="/agents">Intelligent Agents</Link></li>
                             <li><Link to="/modeltransfer">Context Free Model Transfer</Link></li>
                             <li><Link to="/about">About Us</Link></li>
+                            <li><a href="https://girisimsavascisi.org/en/homepage/" target="_blank">Powered by Girişim Savaşcısı</a></li>
                         </ul>
                         <div className="contact">
                             <p><a href="mailto:info@aiforexistence.com">info@aiforexistence.com</a></p>
+                        </div>
+                        <div className="powered">
+                            <a href="https://girisimsavascisi.org/en/homepage/" target="_blank">Powered by Girişim Savaşcısı</a>
+
                         </div>
                 </div>
                 
