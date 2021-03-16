@@ -21,8 +21,8 @@ class AboutManifest extends Component {
                      We must add features to let agents learn from any data they can access and
                      relate to its mission. Currently, rebuilding all tools as agents
                       means a lot of time and effort. So our solution
-                      is IAAAS or AAIAAS (Intelligent Agent as a Service or Automated AI as a Ser
-                      vice). We can compare IAAAS to adding the Frontal lobe to a reptilian brain we
+                      is IAAAS or AAIAAS (Intelligent Agent as a Service or Automated AI as a Service).
+        We can compare IAAAS to adding the Frontal lobe to a reptilian brain we
                        tried to illustrate in our logo. Our ultimate goal is to transfer
                      human intelligence to non-biological 
                       hosts and create digital life forms. This
