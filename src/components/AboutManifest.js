@@ -10,32 +10,25 @@ class AboutManifest extends Component {
                         Our Approach
                     </h5>
                     <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                     sed do eiusmod tempor incididunt ut labore et dolore magna 
-                     aliqua. Accumsan lacus vel facilisis volutpat est velit egestas 
-                     dui. Et magnis dis parturient montes nascetur ridiculus. Arcu cursus 
-                     vitae congue mauris rhoncus aenean <br></br>vel elit scelerisque. Mi quis hendrerit dolor
-                      magna eget est lorem ipsum dolor. Aenean vel elit scelerisque mauris. 
-                      <br></br>Et ultrices neque ornare aenean. Pretium aenean pharetra magna ac 
-                      placerat. Nunc vel risus commodo viverra maecenas accumsan. Vitae
-                       ultricies leo integer malesuada. Et egestas quis ipsum suspendisse
-                        ultrices gravida dictum. Commodo odio aenean sed adipiscing diam donec 
-                        adipiscing tristique.<br></br> Aliquam vestibulum morbi blandit cursus risus at.
-                         Et tortor at risus viverra adipiscing at. Velit euismod in pellentesque massa
-                          placerat duis ultricies lacus sed. Pretium quam vulputate dignissim 
-                          suspendisse in est ante in nibh. Bibendum neque egestas congue quisque
-                           egestas diam. Aliquam malesuada bibendum arcu vit
-                           ae elementum curabitur vitae nunc sed. Blandit c
-                           
-                           ursus risus at ultrices mi tempus.
-
-                Ut placerat orci nulla pellentesq
-                ue dignissim enim. Eget arcu dictum varius 
-
-                duis at consectetur lorem donec massa. Elit eget gravid
-                a cum sociis natoque penatibus et magnis dis. Cursus in hac habitasse platea dictumst qu
-                isque sagittis purus. Sed turpis tincidunt id aliquet risus. Leo duis ut diam quam. Cursus vitae c
-                ongue mauris rhoncus aenean vel<br></br> 
+                     We make AI accessible, serving Machine Learning related 
+                    technologies to individuals and businesses of all sizes 
+                    quite flexible. Unlike common belief, we believe that AI 
+                    will create more employment over time, and we are a part of
+                     it. AI needs human culture to grow, and we collect the 
+                     required dataset while employing a wide variety of people. W
+                     e insist every product of AI must be an Intelligent Agent instea
+                     d of a tool. We must add features to let agents learn from any d
+                     ata they can access and relate to its mission. Currently, rebuil
+                     ding all tools as agents means a lot of time and effort. So our solution
+                      is IAAAS or AAIAAS (Intelligent Agent as a Service or Automated AI as a Ser
+                      vice). We can compare IAAAS to adding the Frontal lobe to a reptilian brain we t
+                      
+                      ried to illustrate in our logo. Our ultimate goal is to tr
+                      ansfer human intelligence to non-biological 
+                      hosts and create digital life forms. This
+                       seems the only way to intelligent continue to exp
+                       lore this rapidly growing universe and continue search
+                       ing for self.
                     </p>
 
                 </div>
