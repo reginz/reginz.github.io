@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Navbar from './components/Navbar';
 import './App.css';
@@ -18,14 +17,14 @@ function App() {
     <> 
       <Router >
         <Navbar/>
-        <Switch >
-          <Route exact path='/'  component={Home} />
-          <Route path='/agents' component={Agents} />
-          <Route path='/datacollection' component={DataCollection} />
-          <Route path="/modeltransfer" component={ModelTransfer}/>
-          <Route path="/about" component={About}/>
-          <Route path="/agentneurons" component={AgentNeurons}/>
-          </Switch>
+            <Switch >
+                <Route exact path='/'  component={Home} />
+                <Route path='/agents' component={Agents} />
+                <Route path='/datacollection' component={DataCollection} />
+                <Route path="/modeltransfer" component={ModelTransfer}/>
+                <Route path="/about" component={About}/>
+                <Route path="/agentneurons" component={AgentNeurons}/>
+              </Switch>
           <Footer></Footer>
       </Router>
     </>
