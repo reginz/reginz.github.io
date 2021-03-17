@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import AgentNeurons from './components/AgentNeurons';
 import { HashRouter} from "react-router-dom";
 import About from './components/pages/About';
+import ModelTransferLanding from './components/ModelTransferLanding';
 
 
 function App() {
@@ -18,11 +19,21 @@ function App() {
       <Router >
         <Navbar/>
             <Switch >
-                <Route exact path='/'  component={Home} />
-                <Route path='/agents' component={Agents} />
-                <Route path='/datacollection' component={DataCollection} />
-                <Route path="/modeltransfer" component={ModelTransfer}/>
-                <Route path="/about" component={About}/>
+                <Route exact path='/'  >
+                  <Home/>
+                </Route>
+                <Route path='/agents'>
+                  <Agents/>
+                </Route>
+                <Route path='/datacollection'>
+                  <DataCollection/>
+                </Route>
+                <Route path="/modeltransfer">
+                  <ModelTransfer/>
+                  </Route>
+                <Route path="/about" >
+                  <About/>
+                  </Route>
                 <Route path="/agentneurons" component={AgentNeurons}/>
               </Switch>
           <Footer></Footer>
