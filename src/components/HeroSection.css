@@ -51,17 +51,17 @@
     grid-row: 2;
     width: 35vw;
 }
-.paragraph a{
+.paragraph a button{
+    padding: 1em 5em 3em 5.5em; 
     font-size: calc(.5vw + 1.1vh);
-}
-button{
-    margin: 0;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: transparent;
-    padding: 1em 5.5em 6em 6em;
     
 }
+.paragraph a{
+    grid-row: 5;
+    grid-column: 1/8;
+}  
+
+
 /* Ipad */
 
 @media screen and (max-width: 1367px){
