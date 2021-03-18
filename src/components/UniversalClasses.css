@@ -10,6 +10,10 @@ a button {
     color: #545e65;
     cursor: pointer;
     z-index: 1;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    padding: 1em 5.5em 6em 6em;
 }
 hr{
     height: .1px;
