@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cretae-wrapper{
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    display: flex;
+    background-color: #ededed;
+}
+.create-container{
+    display: flex;
+    flex-direction: row;
+    height: max-content;
+    position: relative;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    z-index: 100;
+    gap: 100px;
+    max-width: 1900px;
+}
+
+.column{
+    display: inline;
+}
+.column1{
+    width: 40%;
+    text-align: left;
+}
+.column2{
+    width: 60%;
+    text-align: right;
+    padding-top: 10px;
+    justify-content: right;
+}
+.column h1{
+    color: #545e65;
+    font-size: calc(1.9vw + 2.6vh) ;
+}
+.column p{
+    color: #5c656c;
+    font-size: calc(.7vw + 1vh);
+}
+.column2 button{
+    background: transparent;
+    margin-top: 2.5em;
+    padding: 1em 7em 3em 5.5em; 
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: calc(.5vw + 1.1vh);
+}
+.create-container hr{
+    width: 35vw;
+    float: right;
+    border: 2.4px solid #3b3b3b;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+@media screen and (max-width: 865px){
+    .column2 button{
+        margin-right: 0;
+     }
+}
+@media screen and (max-width: 765px){
+    .create-container{
+        flex-direction: column;
+    }
+    .column2{
+        text-align: left;
+    }
+    .create-container hr{
+        float: left;
+    }
+    .column button{
+        font-size: calc(1.4vw + 1vh);
+    }
+    .column{
+        width: 100%;
+    }
+    .column2 p{
+        font-size: calc(1vw + 2vh);
+    }
+    .create-container hr{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 420px){
+    .create-container hr{
+        float: right;
+    }
+    .create-container{
+        padding-left: 50px;
+        padding-right: 50px;
+        gap: 10px;
+    }
+    .column2 p{
+        text-align: right;
+        font-size:  calc(1.3vw + 1.5vh);
+    }
+    .column h1{
+        
+        text-align: right;
+    }
+   
+  
+}

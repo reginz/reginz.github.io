@@ -1,0 +1,29 @@
+.deneme-contianer{
+    display: flex;
+    position: relative;
+    height: max-content;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    text-align: center;
+    font-size: calc(1.3vw + 1vh);
+}
+.deneme-wrapper {
+    color: rgb(46, 46, 46);
+    padding: .5em;
+}
+.email-button button {
+    padding: .9em 6em 3em 4.5em;   
+    
+    font-size: calc(.5vw + 1.1vh); 
+}
+.email-button  {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 1em;
+}
+.deneme-wrapper p{
+    padding-top: 1em;
+}
