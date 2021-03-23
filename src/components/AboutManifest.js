@@ -13,20 +13,20 @@ class AboutManifest extends Component {
                     Our mission is to make AI accessible, serving Machine Learning related 
             technologies to individuals and businesses of all sizes quite flexible so that 
             people do not need to create their own AI tools to benefit from machine learning 
-            algorithms.
+            algorithms.<br></br>
 	Unlike common belief, we believe that AI will create more employment over time, 
             and we are a part of it. AI needs human culture to grow, and we create the 
-            required datasets while employing a wide variety of people.
+            required datasets while employing a wide variety of people.<br></br>
 	We will start a new era where artificial intelligence will be at your service 
             without you worrying about how to learn and use these algorithms. Our intelligent 
             agents will be able to aid companies and businesses without differentiating between 
             domains. So far, the use of AI was at the hand of either big tech companies or 
             people who had the resources to create their own AI systems. They only used AI as a tool, 
-            which means that these algorithms only worked to solve specific problems in domains they were trained for.
+            which means that these algorithms only worked to solve specific problems in domains they were trained for.<br></br>
 	On the other hand, intelligent agents are a much stronger concept where AI can now take actions 
             and make decisions independently, without being given direct commands on its output. 
             They must learn from any data they can access and relate to its tasks. All you have to do is 
-            give an intelligent agent an environment of your own choice (regarding your business). The intelligent agent will start to learn and improve it.
+            give an intelligent agent an environment of your own choice (regarding your business). The intelligent agent will start to learn and improve it.<br></br>
 	Currently, rebuilding all tools as agents involves a lot of time and effort. So our solution 
     is IAAAS or AAIAAS (Intelligent Agent as a Service or Automated AI as a Service). We can compare 
     IAAAS to adding the Frontal lobe to a reptilian brain, as we tried to illustrate in our logo. 
