@@ -4,7 +4,7 @@ import DataLanding from '../DataLanding';
 import DataP from '../DataP';
 import { Helmet } from 'react-helmet'
 
-const TITLE = 'AIX | Crowdsource Data Collection'
+const TITLE = 'AIX | Crowd-sourced Data Collection'
 
 function DataCollection () {
     
