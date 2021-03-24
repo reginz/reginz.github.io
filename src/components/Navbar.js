@@ -31,7 +31,7 @@ function Navbar() {
                     
                     <li >
                         
-                        Crowdsource Data Collection
+                        Crowd-sourced Data Collection
                         </li>
                         </Link>
                        
