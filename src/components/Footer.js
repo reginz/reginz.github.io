@@ -28,6 +28,7 @@ function Footer (){
                     </div>
                     <ul>
                             <li><Link to="/">Home Page</Link></li>
+                            <li><Link to="/nlp_module">NLP Module</Link></li>
                             <li><Link to="/datacollection">Crowdsource Data Collection</Link></li>
                             <li><Link to="/agents">Intelligent Agents</Link></li>
                             <li><Link to="/modeltransfer">Context Free Model Transfer</Link></li>
