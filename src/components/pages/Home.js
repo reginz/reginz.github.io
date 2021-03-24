@@ -4,7 +4,7 @@ import HeroSection from '../HeroSection';
 import CreateFuture from '../CreateFuture';
 import { Helmet } from 'react-helmet';
 
-const TITLE = 'AIX | AI for Existence'
+const TITLE = 'AIX | Artificial Intelligence for Existence'
 
 function Home() {
   return (
