@@ -25,7 +25,7 @@ function DataLanding () {
                         <img src="./images/robot_mobil.webp"></img>
                         </div>   
                         <div className="crowdsource-landning-text">
-                            <h1>Crowdsource Data Collection</h1>
+                            <h1>Crowd-sourced Data Collection</h1>
                             <p>Collecting large datasets
                                 while providing employment to
                                 people from many walks of life 
