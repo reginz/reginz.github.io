@@ -17,7 +17,7 @@ class AboutManifest extends Component {
 	        Unlike common belief, we believe that AI will create more employment over time. 
             We know that AI related  
              <a href="https://www.prnewswire.com/news-releases/artificial-intelligence-is-creating-jobs-dun--bradstreet-survey-finds-300774141.html">  job
-              creation reached 40% </a>among organizations surveyed by
+              creation reached 40% </a>among organizations according to 
             Dun and Bradstreet, and we are a part of it.
             AI needs human culture
               to grow, and we create the 
