@@ -16,7 +16,7 @@ class AboutManifest extends Component {
             algorithms.<br></br>
 	        Unlike common belief, we believe that AI will create more employment over time. 
             We know that AI related  
-             <a href="https://www.prnewswire.com/news-releases/artificial-intelligence-is-creating-jobs-dun--bradstreet-survey-finds-300774141.html">  job
+             <a href="https://www.prnewswire.com/news-releases/artificial-intelligence-is-creating-jobs-dun--bradstreet-survey-finds-300774141.html" target="_blank">  job
               creation reached 40% </a>among organizations according to 
             Dun and Bradstreet, and we are a part of it.
             AI needs human culture
@@ -26,7 +26,7 @@ class AboutManifest extends Component {
             without you worrying about how to learn and use these algorithms. Our intelligent 
             agents will be able to aid companies and businesses without differentiating between 
             domains.<br></br> So far, the use of AI was at the hand of either big tech companies or 
-            people who had the resources to create their own AI systems. According to CompTIA, <a href="https://connect.comptia.org/content/research/emerging-business-opportunities-in-ai">only 29% of companies use AI</a> regularly.
+            people who had the resources to create their own AI systems. According to CompTIA, <a href="https://connect.comptia.org/content/research/emerging-business-opportunities-in-ai" target="_blank">only 29% of companies use AI</a> regularly.
             Because they only used AI as a tool, 
             which means that these algorithms only worked to solve specific problems in domains they were trained for.<br></br>
 	On the other hand, intelligent agents are a much stronger concept where AI can now take actions 
