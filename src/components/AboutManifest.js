@@ -10,18 +10,24 @@ class AboutManifest extends Component {
                         Our Approach
                     </h5>
                     <p>
-                    Our mission is to make AI accessible, serving Machine Learning related 
+                  Our mission is to make AI accessible, serving Machine Learning related 
             technologies to individuals and businesses of all sizes quite flexible so that 
             people do not need to create their own AI tools to benefit from machine learning 
             algorithms.<br></br>
-	Unlike common belief, we believe that AI will create more employment over time, 
-            and we are a part of it. AI needs human culture to grow, and we create the 
+	        Unlike common belief, we believe that AI will create more employment over time. 
+            We know that AI related  
+             <a href="https://www.prnewswire.com/news-releases/artificial-intelligence-is-creating-jobs-dun--bradstreet-survey-finds-300774141.html">  job
+              creation reached 40% </a>among organizations surveyed by
+            Dun and Bradstreet, and we are a part of it.
+            AI needs human culture
+              to grow, and we create the 
             required datasets while employing a wide variety of people.<br></br>
 	We will start a new era where artificial intelligence will be at your service 
             without you worrying about how to learn and use these algorithms. Our intelligent 
             agents will be able to aid companies and businesses without differentiating between 
             domains.<br></br> So far, the use of AI was at the hand of either big tech companies or 
-            people who had the resources to create their own AI systems. They only used AI as a tool, 
+            people who had the resources to create their own AI systems. According to CompTIA, <a href="https://connect.comptia.org/content/research/emerging-business-opportunities-in-ai">only 29% of companies use AI</a> regularly.
+            Because they only used AI as a tool, 
             which means that these algorithms only worked to solve specific problems in domains they were trained for.<br></br>
 	On the other hand, intelligent agents are a much stronger concept where AI can now take actions 
             and make decisions independently, without being given direct commands on its output. 
