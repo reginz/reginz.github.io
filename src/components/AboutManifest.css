@@ -1,7 +1,7 @@
 .manifest-container{
     display: flex;
     position: relative;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     height: max-content;   
     border-radius: 0 0 40px;
@@ -15,6 +15,7 @@
     flex-direction: column;
     height: 100%;
     max-width: 1900px;
+    width: 60%;
     align-self: center;
     justify-self: center;
     padding-top: 5vh;
@@ -29,6 +30,12 @@
 }
 .manifest-wrapper p{
     color: #3b3b3b;
+    text-indent: 2.3em;
+}
+@media screen and (max-width: 1024px){
+    .manifest-wrapper{
+        width: 80%;
+    }
 }
 @media screen and (max-width: 600px){
    
@@ -37,9 +44,10 @@
     }
 }
 .manifest-container a{
-    color: rgb(112, 112, 112);
+    color: rgb(156, 156, 156);
     text-decoration: none;
 }
 .manifest-container a:hover{
     color: rgb(78, 78, 78);
+    text-decoration: underline;
 }
