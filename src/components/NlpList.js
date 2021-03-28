@@ -17,7 +17,8 @@ class NlpList extends Component {
                         </div>
                         <div className=" text text2">
                             <div data-aos="fade-left">
-                            <b>Choose your tags.</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            <b>Choose your tags.</b> Select your tags from uploaded data or create them in our studio.
+
                             </div>
                         </div>
                         <div className=" text text3">
