@@ -23,7 +23,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "sitemap": "babel-node path/to/your/sitemap-generator.js"
+    "sitemap": "babel-node ./public/sitemap-generator.js",
+    "predeploy": "npm run sitemap"
   },
   "eslintConfig": {
     "extends": [
@@ -51,3 +52,4 @@
     "babel-register": "^6.26.0"
   }
 }
+
