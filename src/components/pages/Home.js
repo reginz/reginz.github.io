@@ -4,7 +4,7 @@ import HeroSection from '../HeroSection';
 import CreateFuture from '../CreateFuture';
 import { Helmet } from 'react-helmet';
 import Email from '../Email';
-
+import Blog from '../Blog';
 const TITLE = 'AIX | AI for Existence'
 
 function Home() {
@@ -14,6 +14,7 @@ function Home() {
         <title> {TITLE} </title>
       </Helmet>
       <HeroSection />
+    <Blog/>
       <Email/>
       <CreateFuture />
     </>
