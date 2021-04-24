@@ -1,0 +1,32 @@
+.wrap-blog{
+    height: max-content;
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 2em 0;
+    font-size: calc(1.3vw + 1vh);
+    color: #545e65;
+    text-align: center;
+}
+.wrap-blog button{
+    padding: .5em 2.5em;
+    margin-left: 1em;
+    background: #e4c142;
+    border-radius: 4px;
+    font-size: calc(.7vw + 1vh);
+    border-color: transparent;
+    color: #545e65;
+    font-weight: bold;
+    margin-top: 2.5em;
+}
+.wrap-blog h2{
+    text-align: center;
+}
+@media screen and (max-width: 600px){
+    .wrap-blog button{
+        margin-left: -6vw;
+    }
+}
