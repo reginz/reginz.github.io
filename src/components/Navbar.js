@@ -49,8 +49,16 @@ function Navbar() {
                         </li>
                         </Link>
                         
+                        <a href="https://medium.com/aiforexistence" target="_blank" 
+                        style={{zIndex:"11", backgroundColor:"#ffa221",color:"white"}}>
+                    <li >
+                        
+                        Blog 
+                        </li>
+                    </a>
                 </ul>
                 </div>
+                
                 
             </div>
         );
