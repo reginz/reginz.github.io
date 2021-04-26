@@ -16,6 +16,7 @@ function Home() {
       </Helmet>
       <HeroSection />
       <Blog/>
+      <TimeLine/>
       <Email/>
       <CreateFuture />
     </>
