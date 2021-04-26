@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import '../css/TimeLine.css';
 
 class TimeLine extends Component {
@@ -10,47 +11,45 @@ class TimeLine extends Component {
             <h2>Timeline</h2>
               
                <p>
-                   <h3>20-15-21</h3>
-                   Doggo ipsum long bois lotsa pats blep. 
-                    What a nice floof ruff super chub very 
-                    good spot, the neighborhood pupper 
-                    lotsa pats. Borkdrive shibe shoober what 
-                    a nice floof, borking doggo.</p>
+                   <h3>2021</h3>
+                   Foundation of the company. <br></br>
+                   R&D studies. <br></br>
+                   Product design.
+                   </p>
               
-                <p><h3>20-15-21</h3>
-                    Shoober shooberino adorable doggo many 
+                <p><h3>2021</h3>
+                    Initiating developement of the agent as a service modules.<br></br>
+                    Expaining our ideas about the future of AI through our blog.<br></br>
+                    Forming community.
+                    </p>
+              
+                <p>
+                <h3>2021</h3>
+                API & integration of our service.<br></br>
+                Shipping our sofware service.
+                 </p>
+              
+                <p>
+                <h3>2021</h3>
+                    Developement of <Link to="/datacollection">crowd-sourced data collection app.</Link>
+
+                    </p>
+              
+
+            </div>
+            <div className="timeline t2" style={{marginTop:"-3rem"}}>
+              
+               <p>
+                   <h3>2022</h3>
+                   Shipping cross platform <Link to="/datacollection">crowd-sourced data collection app.</Link>
+                   </p>
+              
+                <p><h3>Near Future</h3>
+                    To be announced soon...
                     
-                    
-                    pats, heckin good boys many pats 
-                    pupper wrinkler, corgo maximum borkdrive. 
-                    A frighten puggo wow very biscit.</p>
+                    </p>
               
-                <p>Big ol h*ck adorable doggo vvv 
-                    smol borking doggo with a long snoot for 
-                    pats big ol, he made many woofs doing me a frighten 
-                    puggo wow very biscit, ruff fat boi ruff long doggo. </p>
-              
-                <p>Long bois mlem I am bekom fat 
-                    wrinkler 
-                    puggo maximum borkdrive big ol 
-                    pupper I am bekom fat, fluffer vvv adorable 
-                    doggo lotsa pats snoot. I am bekom fat ur givin 
-                    me a spook length boy wow very biscit very good spot.</p>
-              
-                <p>Doggo ipsum long bois lotsa pats blep. 
-                    What a nice floof ruff super chub very 
-                    good spot, the neighborhood pupper lotsa pats. 
-                    Borkdrive shibe shoober what a nice floof, borking doggo.</p>
-              
-                <p>Shoober shooberino adorable doggo many pats, 
-                    heckin good boys many pats pupper wrinkler, c
-                    orgo maximum borkdrive. A frighten puggo 
-                    wow very biscit.</p>
-                  
-                    <p>Shoober shooberino adorable doggo many pats, 
-                    heckin good boys many pats pupper wrinkler, c
-                    orgo maximum borkdrive. A frighten puggo 
-                    wow very biscit.</p>
+
             </div>
             </div>
         );
