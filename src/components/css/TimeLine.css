@@ -5,7 +5,6 @@
 .timeline-container::-webkit-scrollbar {
   width: 15px;
   height: 10px;
-  
 }
 h6{
   color: #34435e;
@@ -50,6 +49,7 @@ h6{
 	 position: relative;
 	 color: #34435e;
 }
+
 .timeline p:before {
 	 content: "Q" counter(section);
 	 position: absolute;
@@ -63,6 +63,10 @@ h6{
 	 color: #545454;
 	 font-size: 1em;
    font-weight: 700;
+}
+.t2 p:nth-child(2):before {
+	content:"∞";
+	font-size: 30px;
 }
 .timeline p:nth-child(odd) {
 	 border-right: 3px solid;
@@ -92,4 +96,12 @@ h6{
 	 border-bottom-right-radius: 0;
 	 border-bottom-left-radius: 0;
 }
- 
+ @media screen and (max-width:600px) {
+	 .timeline-container{
+		 overflow-x: hidden;
+		
+	 }
+	 .timeline{
+		 padding:0 2em;
+	 }
+ }
