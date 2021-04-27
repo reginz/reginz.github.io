@@ -3,11 +3,7 @@
   overflow-y: auto;
 }
 .timeline-container::-webkit-scrollbar {
-  width: 15px;
-  height: 10px;
-}
-h6{
-  color: #34435e;
+  width: 5px;
 }
 .timeline-container small{
   color: #34435e;
@@ -26,6 +22,7 @@ h6{
 .timeline-container::-webkit-scrollbar-thumb {
   background: #80738f;
   border-radius: 10px;
+  height: 5px;
 }
 .timeline-container::-webkit-scrollbar-thumb:hover {
   background: #685e74;
@@ -81,27 +78,30 @@ h6{
 }
 
 
- .t1 p:nth-child(odd) {
+ .timeline p:nth-child(odd) {
 	border-right: 3px solid;
 	padding-left: 0;
 	border-left: none;
-  text-align: right;
+    text-align: right;
 }
- .t1 p:nth-child(odd):before {
+ .timeline p:nth-child(odd):before {
 	left: 100%;
 	margin-left: -20px;
-  
+	border-left: none;
+
 }
- .t1 p:nth-child(even) {
+ .timeline p:nth-child(even) {
 	border-left: 3px solid;
 	padding-right: 0;
 	border-right: none;
 }
- .t1 p:nth-child(even):before {
+ .timeline p:nth-child(even):before {
 	right: 100%;
 	margin-right: -20px;
+	border-left: none;
+
 }
-.t1 p:nth-child(6){
+.timeline p:nth-child(6){
 	counter-reset: section;
 }
 
