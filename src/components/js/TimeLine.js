@@ -7,8 +7,8 @@ class TimeLine extends Component {
         return (
             <div className="timeline-container">
                
-            <div className="timeline">
-            <h2>Timeline</h2>
+            <div className="timeline t1">
+            <h2>Roadmap</h2>
               
                <p>
                    <h3>2021</h3>
@@ -18,39 +18,42 @@ class TimeLine extends Component {
                    </p>
               
                 <p><h3>2021</h3>
-                    Initiating developement of the agent as a service modules.<br></br>
-                    Expaining our ideas about the future of AI through our blog.<br></br>
-                    Forming community.
+                    Initiating developement of the <Link to="/agents"> agent as a service</Link> modules.<br></br>
+                    Explaining our ideas about the future of AI through <a href="https://medium.com/aiforexistence">our blog.</a><br></br>
+                    Forming our community.
                     </p>
               
                 <p>
                 <h3>2021</h3>
-                API & integration of our service.<br></br>
-                Shipping our sofware service.
+                API & integration of <Link to="/nlp_module">our service.</Link><br></br>
+                Releasing closed & open betas.
                  </p>
-              
-                <p>
+                 <p>
                 <h3>2021</h3>
+                Shipping our service.
+                 </p>
+                <p>
+                <h3>2022</h3>
                     Developement of <Link to="/datacollection">crowd-sourced data collection app.</Link>
 
                     </p>
-              
-
-            </div>
-            <div className="timeline t2" style={{marginTop:"-3rem"}}>
-              
-               <p>
+                    <p>
                    <h3>2022</h3>
                    Shipping cross platform <Link to="/datacollection">crowd-sourced data collection app.</Link>
                    </p>
               
                 <p><h3>Near Future</h3>
-                    To be announced soon...
+                    More details to be announced soon...
                     
                     </p>
-              
+                    <p><h3>Long Term Goals</h3>
+                    Reaserching context free unsupervised model transfer.<br></br>
+                    Augumenting human-computer interface with agent architecture. <br></br>
+                    
+                    </p>
 
             </div>
+            
             </div>
         );
     }
