@@ -12,6 +12,13 @@ h6{
 .timeline-container small{
   color: #34435e;
 }
+.timeline a{
+	color: #d6b53d;
+}
+.timeline a:hover{
+	color: #ecc73f;
+	text-decoration: underline;
+}
 .timeline-container::-webkit-scrollbar-track {
   background: #ededed;
   
@@ -39,12 +46,11 @@ h6{
 	 line-height: 1.75em;
 	 border-top: 3px solid;
 	 border-image: linear-gradient(to right, #ac9bc0 0%,#fff2c3, #ac9bc0 100%);
-	 border-image-slice: 1;
+	 border-image-slice: 2;
 	 border-width: 3px;
 	 margin: 0;
-  
 	 padding: 40px;
-   padding-top: 20px;
+     padding-top: 20px;
 	 counter-increment: section;
 	 position: relative;
 	 color: #34435e;
@@ -62,32 +68,44 @@ h6{
 	 line-height: 1.25em;
 	 color: #545454;
 	 font-size: 1em;
-   font-weight: 700;
+     font-weight: 700;
 }
-.t2 p:nth-child(2):before {
-	content:"∞";
+.timeline p:nth-child(9):before {
+	content:"🚀";
 	font-size: 30px;
 }
-.timeline p:nth-child(odd) {
-	 border-right: 3px solid;
-	 padding-left: 0;
-   text-align: right;
+.timeline p:nth-child(8):before {
+	content:"🌍";
+	font-size: 25px;
 }
-.timeline p:nth-child(odd):before {
-	 left: 100%;
-	 margin-left: -20px;
-   
+
+
+ .t1 p:nth-child(odd) {
+	border-right: 3px solid;
+	padding-left: 0;
+  text-align: right;
 }
-.timeline p:nth-child(even) {
-	 border-left: 3px solid;
-	 padding-right: 0;
-   
+ .t1 p:nth-child(odd):before {
+	left: 100%;
+	margin-left: -20px;
+  
 }
-.timeline p:nth-child(even):before {
-	 right: 100%;
-	 margin-right: -20px;
+ .t1 p:nth-child(even) {
+	border-left: 3px solid;
+	padding-right: 0;
+  
 }
-.timeline p:first-child {
+ .t1 p:nth-child(even):before {
+	right: 100%;
+	margin-right: -20px;
+}
+.t1 p:nth-child(6){
+	counter-reset: section;
+}
+
+
+
+.timeline  p:first-child {
 	 border-top: 0;
 	 border-top-right-radius: 0;
 	 border-top-left-radius: 0;
@@ -102,6 +120,6 @@ h6{
 		
 	 }
 	 .timeline{
-		 padding:0 2em;
+		 padding:0 3em;
 	 }
  }
