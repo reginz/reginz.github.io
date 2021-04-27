@@ -9,7 +9,7 @@ class Blog extends Component {
                 <div>
                     <div className="category-title">
                         Article
-                        <span className="date">Jan 19, 2020</span>
+                        <span className="date">Apr 24, 2020</span>
                     </div>
                 </div>
                 <h2 className="article-title">
@@ -25,7 +25,7 @@ class Blog extends Component {
             </div>
             <div className="tags">
                 <div>AI</div>
-                <div>Boxing</div>
+                <div>Machine Learning</div>
             </div>
             </a>
         </div>
@@ -34,7 +34,7 @@ class Blog extends Component {
                 <div>
                     <div className="category-title">
                         Article
-                        <span className="date">Jan 19, 2020</span>
+                        <span className="date">Apr 26, 2020</span>
                     </div>
                 </div>
                 <h2 className="article-title">
@@ -49,8 +49,8 @@ class Blog extends Component {
                 </div>
             </div>
             <div className="tags">
-                <div>Intelligent Agent</div>
-                <div>AI</div>
+                <div>Mental Models</div>
+                <div>Product Developement</div>
             </div>
             </a>
         </div>
