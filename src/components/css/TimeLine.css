@@ -79,29 +79,33 @@
 
 
  .timeline p:nth-child(odd) {
-	border-right: 3px solid;
+	
 	padding-left: 0;
-	border-left: none;
     text-align: right;
+	
+	border-right: 3px solid;
+	border-bottom: none;
+	border-left: none;
 }
  .timeline p:nth-child(odd):before {
 	left: 100%;
 	margin-left: -20px;
-	border-left: none;
 
 }
  .timeline p:nth-child(even) {
-	border-left: 3px solid;
-	padding-right: 0;
 	border-right: none;
+	padding-right: 0;
+	border-left: 3px solid;
 }
  .timeline p:nth-child(even):before {
 	right: 100%;
 	margin-right: -20px;
-	border-left: none;
+	border-bottom: none;
 
 }
-.timeline p:nth-child(6){
+
+
+.timeline p:nth-child(4){
 	counter-reset: section;
 }
 
