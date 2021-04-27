@@ -8,7 +8,6 @@ class TimeLine extends Component {
             <div className="timeline-container">
                
             <div className="timeline t1">
-            <h2>Roadmap</h2>
               
                <p>
                    <h3>2021</h3>
