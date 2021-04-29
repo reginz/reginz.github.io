@@ -6,9 +6,9 @@ class TimeLine extends Component {
     render() {
         return (
             <div className="timeline-container">
-               <h2>Roadmap</h2>
+               
             <div className="timeline t1">
-              
+              <h2>Roadmap</h2>
                <p>
                    <h3>2021</h3>
                    Foundation of the company. <br></br>
