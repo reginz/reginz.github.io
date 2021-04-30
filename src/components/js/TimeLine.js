@@ -41,7 +41,7 @@ Forming our community.<br></br>
 			</div> 			<div class="cd-timeline-content">
 				<h2> 2021 Q3</h2>
 				<p>API & integration of our service.<br></br>
-Releasing closed & open betas.</p>
+Releasing closed beta.</p>
 			
 			</div> 
 		</div> 
@@ -50,7 +50,8 @@ Releasing closed & open betas.</p>
 			<div class="cd-timeline-img cd-location">
 			</div> 			<div class="cd-timeline-content">
 				<h2>2021 Q4</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+				<p>Relasing closed beta.<br></br>
+                Futher improvements through consumer feedback.</p>
 		
 			</div> 
 		</div> 
