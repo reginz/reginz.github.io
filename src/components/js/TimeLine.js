@@ -5,55 +5,84 @@ import '../css/TimeLine.css';
 class TimeLine extends Component {
     render() {
         return (
-            <div className="timeline-container">
-               
-            <div className="timeline t1">
-              <h2>Roadmap</h2>
-               <p>
-                   <h3>2021</h3>
-                   Foundation of the company. <br></br>
-                   R&D studies. <br></br>
-                   Product design.
-                   </p>
-              
-                <p><h3>2021</h3>
-                    Initiating developement of the <Link to="/agents"> agent as a service</Link> modules.<br></br>
-                    Explaining our ideas about the future of AI through <a href="https://medium.com/aiforexistence">our blog.</a><br></br>
-                    Forming our community.
-                    </p>
-              
-                <p>
-                <h3>2021</h3>
-                API & integration of <Link to="/nlp_module">our service.</Link><br></br>
-                Releasing closed & open betas.
-                 </p>
-                 <p>
-                <h3>2021</h3>
-                Shipping our service.
-                 </p>
-                <p>
-                <h3>2022</h3>
-                    Developement of <Link to="/datacollection">crowd-sourced data collection app.</Link>
+         <div>
+             <section id="cd-timeline" class="cd-container">
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-picture">
+			</div>
 
-                    </p>
-                    <p>
-                   <h3>2022</h3>
-                   Shipping cross platform <Link to="/datacollection">crowd-sourced data collection app.</Link>
-                   </p>
-              
-                <p><h3>Near Future</h3>
-                    More details to be announced soon...
-                    
-                    </p>
-                    <p><h3>Long Term Goals</h3>
-                    Reaserching context free unsupervised model transfer.<br></br>
-                    Augumenting human-computer interface with agent architecture. <br></br>
-                    
-                    </p>
+			<div class="cd-timeline-content">
+				<h2>Penta Consulting</h2>
+        <div class="timeline-content-info">
+          <span class="timeline-content-info-title">
+            <i class="fa fa-certificate" aria-hidden="true"></i>
+            Front End Developer
+          </span>
+          <span class="timeline-content-info-date">
+            <i class="fa fa-calendar-o" aria-hidden="true"></i>
+            June 2016 - Present
+          </span>
+        </div>
+				<p>Working alongside the designer team implementing the designs, also developing custom solutions to address team necessities.</p>
+        <ul class="content-skills">
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>jQuery</li>
+        <li>Wordpress</li>
+        </ul>
+			</div> 
+		</div> 
 
-            </div>
-            
-            </div>
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-movie">
+			</div> 			<div class="cd-timeline-content">
+				<h2>Title of section 2</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
+				<span class="cd-date">Jan 18</span>
+			</div> 
+		</div> 
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-picture">
+			</div> 			<div class="cd-timeline-content">
+				<h2>Title of section 3</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, obcaecati, quisquam id molestias eaque asperiores voluptatibus cupiditate error assumenda delectus odit similique earum voluptatem doloremque dolorem ipsam quae rerum quis. Odit, itaque, deserunt corporis vero ipsum nisi eius odio natus ullam provident pariatur temporibus quia eos repellat consequuntur perferendis enim amet quae quasi repudiandae sed quod veniam dolore possimus rem voluptatum eveniet eligendi quis fugiat aliquam sunt similique aut adipisci.</p>
+				<span class="cd-date">Jan 24</span>
+			</div> 
+		</div> 
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-location">
+			</div> 			<div class="cd-timeline-content">
+				<h2>Title of section 4</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+				<span class="cd-date">Feb 14</span>
+			</div> 
+		</div> 
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-location">
+			</div> 
+
+			<div class="cd-timeline-content">
+				<h2>Title of section 5</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
+				<span class="cd-date">Feb 18</span>
+			</div> 
+		</div> 
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-movie">
+			</div> 			<div class="cd-timeline-content">
+				<h2>Final Section</h2>
+				<p>This is the content of the last section</p>
+				<span class="cd-date">Feb 26</span>
+			</div> 
+		</div> 
+	</section>  
+     </div>
+       
         );
     }
 }
