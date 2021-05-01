@@ -6,11 +6,19 @@ class TimeLine extends Component {
     render() {
         return (
          <div>
+			 <h2 style={{color:"#646465", 
+			  textAlign:"center",
+			  fontSize:"calc(1vw + 2.3vh)",
+			  paddingTop:"1em"}}>
+				  ROADMAP
+			  </h2>
              <section id="cd-timeline" class="cd-container">
+			
 		<div class="cd-timeline-block">
+		
 			<div class="cd-timeline-img cd-picture">
 			</div>
-
+				
 			<div class="cd-timeline-content">
 				<h2>2021 Q1</h2>
 
