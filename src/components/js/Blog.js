@@ -9,7 +9,7 @@ class Blog extends Component {
                 <div>
                     <div className="category-title">
                         Article
-                        <span className="date">Apr 24, 2020</span>
+                        <span className="date">Apr 24, 2021</span>
                     </div>
                 </div>
                 <h2 className="article-title">
@@ -34,7 +34,7 @@ class Blog extends Component {
                 <div>
                     <div className="category-title">
                         Article
-                        <span className="date">Apr 26, 2020</span>
+                        <span className="date">Apr 26, 2021</span>
                     </div>
                 </div>
                 <h2 className="article-title">
@@ -51,6 +51,31 @@ class Blog extends Component {
             <div className="tags">
                 <div>Mental Models</div>
                 <div>Product Developement</div>
+            </div>
+            </a>
+        </div>
+        <div className="card "style={{boxShadow:"-1rem 0 1.5rme #80738f;"}} ><a href="https://medium.com/aiforexistence/limits-of-deep-learning-14cae2ae1d75" target="_blank">
+            <header className="article-header">
+                <div>
+                    <div className="category-title">
+                        Article
+                        <span className="date">May 2, 2021</span>
+                    </div>
+                </div>
+                <h2 className="article-title">
+                    Limits of Deep Learning
+                </h2>
+            </header>
+            <div className="author">
+                <div className="profile"></div>
+                <div className="info">
+                    <div className="caption">Author</div>
+                    <div className="name">Yiğit Şimşek</div>
+                </div>
+            </div>
+            <div className="tags">
+                <div>Deep Learning</div>
+                <div>Neural Networks</div>
             </div>
             </a>
         </div>
