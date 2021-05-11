@@ -79,7 +79,31 @@ class Blog extends Component {
             </div>
             </a>
         </div>
-        
+         <div className="card "style={{boxShadow:"-1rem 0 1.5rme #80738f;"}} ><a href="https://medium.com/aiforexistence/limits-of-deep-learning-14cae2ae1d75" target="_blank">
+            <header className="article-header">
+                <div>
+                    <div className="category-title">
+                        Article
+                        <span className="date">May 11, 2021</span>
+                    </div>
+                </div>
+                <h2 className="article-title">
+                    Natural Language Processing in a Nutshell
+                </h2>
+            </header>
+            <div className="author">
+                <div className="profile"></div>
+                <div className="info">
+                    <div className="caption">Author</div>
+                    <div className="name">Zeynep Evecen</div>
+                </div>
+            </div>
+            <div className="tags">
+                <div>Natural Language Processing</div>
+                <div>Machine Learning</div>
+            </div>
+            </a>
+        </div>
         
       
  
