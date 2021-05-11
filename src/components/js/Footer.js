@@ -12,7 +12,9 @@ function Footer (){
                         <a href="https://discord.gg/UwjWhZAgHJ" target="_blank">
                         <img src="./images/sm_d.webp"/>
                         </a>
+                         <a href="https://www.linkedin.com/company/aix-artificial-intelligence-technologies/?viewAsMember=true" target="_blank">
                         <img src="./images/sm_i.webp"/>
+                           </a>
                         <a href="https://twitter.com/aiforexistence" target="_blank">
                         <img src="./images/sm_t.webp"/>
                         </a>
