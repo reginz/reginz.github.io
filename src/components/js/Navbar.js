@@ -35,7 +35,7 @@ function Navbar() {
                         </li>
                         </Link>
                        
-                        <Link to="/agents" style={{backgroundColor: " #545e65",color:"white",  zIndex:"10"}}>
+                        <Link to="/agents" style={{backgroundColor: " #545e65",color:"white",  zIndex:"10", alignSelf:"center"}}>
                         <li>
                         
                          Intelligent Agents
@@ -57,7 +57,7 @@ function Navbar() {
                         </li>
                     </a>
                         <a href="https://http://forum.aiforexistence.com/" target="_blank" 
-                        style={{zIndex:"11", backgroundColor:"#dd6767",color:"white"}}>
+                        style={{zIndex:"11", backgroundColor:"#464647",color:"white"}}>
                     <li >
                         
                         Forum
