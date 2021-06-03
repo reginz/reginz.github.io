@@ -35,7 +35,7 @@ function Navbar() {
                         </li>
                         </Link>
                        
-                        <Link to="/agents" style={{backgroundColor: " #545e65",color:"white",  zIndex:"10", alignSelf:"center"}}>
+                        <Link to="/agents" style={{backgroundColor: " #545e65",color:"white",  zIndex:"10"}}>
                         <li>
                         
                          Intelligent Agents
