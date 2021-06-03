@@ -42,12 +42,6 @@
     .desktop-nav ul a {
         align-items: center;
     }
-    .desktop-nav ul a:nth-child(5){
-        display: none;
-    }
-    .desktop-nav ul a:nth-child(3){
-        display: none;
-    }
 }
 @media screen and (max-width: 420px){
     .desktop-nav ul a li{
