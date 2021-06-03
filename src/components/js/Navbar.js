@@ -56,6 +56,13 @@ function Navbar() {
                         Blog 
                         </li>
                     </a>
+                        <a href="https://http://forum.aiforexistence.com/" target="_blank" 
+                        style={{zIndex:"11", backgroundColor:"#dd6767",color:"white"}}>
+                    <li >
+                        
+                        Forum
+                        </li>
+                    </a>
                 </ul>
                 </div>
                 
