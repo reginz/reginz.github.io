@@ -27,37 +27,15 @@ function Navbar() {
                         </li>
                         </Link>
                     
-                    <Link to="/datacollection" style={{ backgroundColor:"#d6b53d", color:"white", zIndex:"9"}} >
-                    
-                    <li > 
-                        
-                        Crowd-sourced Data Collection
-                        </li>
-                        </Link>
-                       
-                        <Link to="/agents" style={{backgroundColor: " #545e65",color:"white",  zIndex:"10"}}>
-                        <li>
-                        
-                         Intelligent Agents
-                         </li>
-                         </Link >
-                   
-                         <Link to="/modeltransfer" style={{backgroundColor:"#58ba91", color:"white", marginRight:"0",  zIndex:"8"}}>
-                    <li >
-                        
-                        Context Free Model Transfer
-                        </li>
-                        </Link>
-                        
                         <a href="https://medium.com/aiforexistence" target="_blank" 
-                        style={{zIndex:"11", backgroundColor:"#dd6767",color:"white"}}>
+                        style={{zIndex:"11", backgroundColor:"#d6b53d",color:"white"}}>
                     <li >
                         
                         Blog 
                         </li>
                     </a>
                         <a href="https://forum.aiforexistence.com/" target="_blank" 
-                        style={{zIndex:"11", backgroundColor:"#ac9bc0",color:"white"}}>
+                        style={{zIndex:"11", backgroundColor:"#58ba91",color:"white"}}>
                     <li >
                         
                         Forum
