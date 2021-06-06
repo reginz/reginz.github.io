@@ -1,0 +1,89 @@
+.agent-container{
+    font-size: calc(1.3vw + 1vh);
+    background: url(./aixlanding_grey.webp);
+    background-size: cover;
+    width: 100%;
+    height: 80vh;   
+    max-height: 1200px;
+    position: relative;
+    border-radius: 0 0 40px;
+    box-shadow: 8px 0 5px -6px  black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.banner-wrapper{
+    display:grid;
+    grid-template-rows: repeat(5, 10vh);
+    grid-template-columns: repeat(8, 1fr);
+    justify-content:center;
+    position: relative;
+    padding:3.2em;
+    color:white;
+    max-width: 1900px;
+}
+.agent-paragraph{
+    position: relative;
+    grid-column: 1/8;
+    grid-row: 1/6;
+    font-size:1em;
+    justify-self: center;
+}
+
+.agent-paragraph p{
+    text-align:left;
+    position: relative;
+    font-size:  calc(1.3vw + 1.3vh);
+}
+.agent-container h1{
+    font-size: calc(1.9vw + 2.6vh) ;
+    margin-bottom: 1em;
+}
+.agent-paragraph hr{
+    grid-row: 2;
+    width: 35vw;
+}
+.agent-paragraph button{
+    padding: 1em 7em 3em 5.5em; 
+    font-size: calc(.5vw + 1.1vh);
+}
+
+@media screen and (max-width: 1367px){
+    .agent-paragraph {
+        grid-row: 2/6;
+        
+    }
+    
+}
+@media screen and (max-width: 1024px){
+    .agent-container{
+        height: 55vh;
+    }
+}
+/* Phone */
+@media screen and (max-width: 600px){
+    .agent-paragraph{
+        grid-column: 2/8; 
+        grid-row: 1/8;
+    }
+    .agent-paragraph p{
+        text-align:left;
+        font-size:  calc(1.3vw + 1.5vh);
+    }
+    .agent-paragraph button{
+        font-size: calc(.5vw + 1.25vh);
+    }
+    button{
+        left:6vw;
+        position: relative;
+
+    }
+    .agent-paragraph hr{
+        width: 100%;
+    }
+    
+    .agent-container{
+        height:70vh;
+    }
+}

@@ -1,0 +1,99 @@
+.deparments-container{
+    font-size: calc(1.3vw + 1vh);
+    width: 100%;
+    max-height: 1200px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    height: max-content;
+    margin-bottom: 0;
+    display: flex;
+}
+.departments-wrapper{
+    width: 100%;
+    display:grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    justify-content:center;
+    position: relative;
+}
+.image1{
+    grid-row: 1;
+    grid-column: 1;
+}
+.deparments-container img{
+    width: 100%;
+    height: 100%;
+}
+.image2 {
+    grid-column: 2;
+    grid-row: 1;
+}
+.developement{
+    grid-row: 1;
+    grid-column: 1;
+    z-index: 100;
+    color: white;
+    padding: 4vw;
+    justify-self: center;
+    max-width: 1900px;
+}
+.developement h2{
+    text-align: center;
+    padding-bottom: 1em;
+}
+.research{
+    grid-row: 1;
+    grid-column: 2;
+    z-index: 100;
+    color: white;
+    padding: 4vw;
+    justify-self: center;
+    max-width: 1900px;
+}
+.research h2{
+    padding-bottom: 1em;
+    text-align: center;
+}
+.layer {
+    background-color: rgba(46, 46, 46, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.departments-button button{
+    font-size: calc(.5vw + 1.1vh); 
+    padding: .5em 6em 4em 5em; 
+    
+}
+.departments-button {
+    position: relative;
+    justify-content: center;
+    display: flex;
+    padding-top: 3em;
+}
+@media screen and (max-width: 760px){
+    .departments-wrapper{
+        grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    gap: 0; 
+    height: 40%;
+    }
+    .image1, .developement{
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .image2, .research{
+        grid-column: 1;
+        grid-row: 2;
+
+    }
+    .image2, .image1{
+        height: 100%;
+    }    
+
+}
