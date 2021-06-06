@@ -1,5 +1,4 @@
-import React from 'react'
-import {Card, CardColumns} from 'react-bootstrap';
+import React from 'react';
 import '../css/BlogPage.css'
 
 export default function BlogPage() {
