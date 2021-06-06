@@ -1,0 +1,73 @@
+.blog-page{
+    margin: 0;
+    padding: 0;
+    background-color: #d6b53d;
+    font-size: 16px;
+}
+.card-column{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(auto, 350px);
+    color: black;
+    width: 90vw;
+    position: relative;
+    margin: 0 auto;
+    grid-auto-flow: dense;
+}
+.card{
+    width: 90%;
+    background: #fafafa;
+    margin: 2em 0;
+    border-radius: 8px;
+    box-shadow: 8px 8px 10px #333333;
+    height: max-content;
+}
+.card-text{
+    padding: 1em;
+}
+.card-text p{
+    padding: 1em 0;
+}
+.card-image{
+    width: 90%;
+    min-height: 200px;
+    position: relative;
+    margin: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.intelligent-agent-as-a-mental-model{
+    background: url(./image/iaamm.png);
+}
+.boxing-an-ai{
+    background: url(./image/robotpsd.png);
+    background-size: 330px ;
+    background-repeat: no-repeat;
+    position: relative;
+    margin: 0 auto;
+}
+.limits-of-deep-learning{
+    background: url(./image/wb.png);
+}
+
+.natural-language-processing-in-a-nutshell{
+    background: url(./image/nlp.png);
+}
+.card:hover {
+    transform: translateY(-1rem);
+    transition: .5s ease-in-out;
+}
+
+
+.blog-page a,.blog-page a:visited,.blog-page a:active{
+    color: black;
+}
+.blog-page small{
+    color: #747474;
+}
+
+@media screen and (max-width:770px) {
+    .card-column{
+        grid-template-columns: 1fr;
+    }
+}
