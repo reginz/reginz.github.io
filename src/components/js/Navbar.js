@@ -27,13 +27,13 @@ function Navbar() {
                         </li>
                         </Link>
                     
-                        <Link to="/blog"
+                        <a href="https://medium.com/" target="_blank" 
                         style={{zIndex:"11", backgroundColor:"#d6b53d",color:"white"}}>
                     <li >
                         
                         Blog 
                         </li>
-                    </Link>
+                    </a>
                         <a href="https://forum.aiforexistence.com/" target="_blank" 
                         style={{zIndex:"11", backgroundColor:"#58ba91",color:"white"}}>
                     <li >
