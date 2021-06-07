@@ -41,7 +41,7 @@ function App() {
                   <About/>
                   </Route>
                 <Route path="/agentneurons" component={AgentNeurons}/>
-              <Route path="/blog" component={Blog}></Route>
+              
                 
               </Switch>
           <Footer></Footer>
