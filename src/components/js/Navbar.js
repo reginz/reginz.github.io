@@ -27,7 +27,7 @@ function Navbar() {
                         </li>
                         </Link>
                     
-                        <a href="https://medium.com/" target="_blank" 
+                        <a href="https://medium.com/aiforexistence" target="_blank" 
                         style={{zIndex:"11", backgroundColor:"#d6b53d",color:"white"}}>
                     <li >
                         
