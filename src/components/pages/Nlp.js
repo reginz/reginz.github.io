@@ -6,7 +6,7 @@ import NlpLanding from '../js/NlpLanding';
 import NlpList from '../js/NlpList';
 import NlpLink from '../page_link/NlpLink';
 
-const TITLE = 'AIX | NLP Module'
+const TITLE = 'AIX | Brieferr Form Analysis'
 
 function Nlp() {
   return (

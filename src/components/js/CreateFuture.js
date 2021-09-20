@@ -40,7 +40,7 @@ function CreateFuture() {
                     <Link to="/about">
                     <button className="create-button button" style={{backgroundImage:"url(/images/button2_salt-min.png)"}}>
                        
-                        Manifest
+                        Manifesto
                         
                         <div className="dot-button dot11"></div>
                         <div className="dot-general2 dot10"></div>

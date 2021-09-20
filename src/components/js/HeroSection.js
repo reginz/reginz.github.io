@@ -33,7 +33,7 @@ function HeroSection (){
                             <Link to="/nlp_module">
                                 <button className="hero-button button" style={{backgroundImage:"url(/images/button1_salt-min.png)"}}>
                                     
-                                        Learn More
+                                        Manifesto
                                     
                                     <div className="dot-general1 dot13"></div>
                                     <div className="dot-button dot12"></div>

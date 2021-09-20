@@ -19,13 +19,13 @@ function Navbar() {
                         <img src="./logo/ai_logo_white.webp"/>
                         </li>
                     </Link>
-                    <Link to="/nlp_module" style={{ backgroundColor:"#ac9bc0", color:"white", zIndex:"9"}} >
-                    
+                    <a href="https://brieferr.com" target="_blank" 
+                        style={{ backgroundColor:"#ac9bc0", color:"white", zIndex:"9"}}>
                     <li >
                         
-                        NLP Module
+                        Brieferr
                         </li>
-                        </Link>
+                        </a>
                     
                         <a href="https://medium.com/aiforexistence" target="_blank" 
                         style={{zIndex:"11", backgroundColor:"#d6b53d",color:"white"}}>
