@@ -12,7 +12,7 @@ import About from './components/pages/About';
 import ScrollToTop from './components/js/Scrolltotop';
 import Nlp from './components/pages/Nlp';
 import Blog from './components/pages/Blog';
-
+import Academy from './components/pages/Academy';
 
 function App() {
   return (
@@ -41,7 +41,9 @@ function App() {
                   <About/>
                   </Route>
                 <Route path="/agentneurons" component={AgentNeurons}/>
-              
+                <Route path="/academy" >
+                  <Academy/>
+                  </Route>
                 
               </Switch>
           <Footer></Footer>

@@ -1,8 +1,6 @@
 import '../css/Navbar.css'
 import '../css/UniversalClasses.css'
-import '../pages/Agents'
 import {Link} from 'react-router-dom';
-import Agents from '../pages/Agents';
 
 
 function Navbar() {
@@ -17,6 +15,12 @@ function Navbar() {
                     <li >
                         
                         <img src="./logo/ai_logo_white.webp"/>
+                        </li>
+                    </Link>
+                    <Link to="/academy"style={{zIndex:"11", backgroundColor:"#ededed", color:"#464647"}}>
+                    <li >
+                        
+                    Our Academy
                         </li>
                     </Link>
                     <a href="https://brieferr.com" target="_blank" 
