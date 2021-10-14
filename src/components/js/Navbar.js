@@ -17,7 +17,7 @@ function Navbar() {
                         <img src="./logo/ai_logo_white.webp"/>
                         </li>
                     </Link>
-                    <Link to="/academy"style={{zIndex:"11", backgroundColor:"#ededed", color:"#464647"}}>
+                    <Link to="/academy"style={{zIndex:"11", backgroundColor:"#d6b53d", color:"white"}}>
                     <li >
                         
                     Our Academy
@@ -32,7 +32,7 @@ function Navbar() {
                         </a>
                     
                         <a href="https://medium.com/aiforexistence" target="_blank" 
-                        style={{zIndex:"11", backgroundColor:"#d6b53d",color:"white"}}>
+                        style={{zIndex:"11", backgroundColor:"#b1b1b2",color:"white"}}>
                     <li >
                         
                         Blog 

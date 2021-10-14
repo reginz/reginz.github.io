@@ -30,7 +30,7 @@ function HeroSection (){
                             
                             
                             <hr></hr>
-                            <Link to="/nlp_module">
+                            <Link to="/about">
                                 <button className="hero-button button" style={{backgroundImage:"url(/images/button1_salt-min.png)"}}>
                                     
                                         Manifesto

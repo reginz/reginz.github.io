@@ -1,9 +1,16 @@
 import React from 'react';
-import AcademyLanding from './AcademyLanding.js';
+import AcademyLanding from '../js/AcademyLanding';
+import CourseDet from '../js/CourseDet';
+import JoinNow from '../js/JoinNow';
+import WhyUs from '../js/WhyUs';
+
 function Academy(props) {
     return (
         <div>
-            <AcademyLanding></AcademyLanding>
+            <AcademyLanding />
+            <CourseDet />
+            <WhyUs />
+            <JoinNow />
         </div>
     );
 }

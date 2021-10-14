@@ -1,0 +1,49 @@
+#academy-landing-container{
+    background-color: #d6b53d !important; 
+}
+
+.edu-container{
+    width: 100%;
+    padding: 5em;
+    color: #545455;
+    display: flex;
+    gap: 3em;
+}
+.col1{
+    width: 40%;
+}
+.col1 img{
+    width: 100%;
+}
+
+@media screen and (max-width:900px) {
+    .course-img-wrapper{
+        display: none;
+    }
+    .join-now img{
+        display: none;
+    }
+    .join-now div{ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0 1em;
+    }
+    .course-col{
+        width: 100% !important;
+        padding: 1em;
+    }
+    #course-col-wrapper{
+        gap: 0 !important;
+    }
+}
+@media screen and (max-width:600px) {
+    .edu-container{
+        flex-direction: column;
+    }
+    .col1{
+        width: 100%;
+    }
+}
