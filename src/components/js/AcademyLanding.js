@@ -13,15 +13,15 @@ function AcademyLanding(props) {
                     <div className="nlp-banner-wrapper">
                     <h1>AI 101</h1>
                     <p>
-                        Yapay zekanın ilham verici dünyasına girin ve yapay zeka dönüşümüne siz de katılın. İşinizde <b>sıfır kodla</b> nasıl yapay zekayı dahil edersiniz,
-                        yapay zeka takımlarını nasıl kurup yönetirsiniz ve çok daha fazlasını öğrenin.
+                    Enter the inspiring world of AI and join the AI transformation. Learn how to incorporate artificial intelligence into your work with <b>zero code</b>,
+                         how to build and manage AI teams and much more.
                          </p>
                         <hr></hr>
                         <AnchorLink href="#course">
                         <button className="nlp-button button"
                                 style={{backgroundImage:"url(/images/button_white.webp)"}}>
                                 
-                                        Eğitim İçeriği
+                                        Course Content
                                     
                                     <div className="dot-general1 dot13"></div>
                                     <div className="dot-button dot12"></div>

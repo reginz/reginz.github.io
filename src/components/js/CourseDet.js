@@ -13,7 +13,7 @@ function CourseDet(props) {
         }} id="course">
 
             <h1 style={{color:"#545454",
-        padding:"2em 0"}}>Eğitim İçeriği</h1>
+        padding:"2em 0"}}>Course Content</h1>
         
             <div style={{
                 display:"flex",
@@ -37,14 +37,15 @@ function CourseDet(props) {
                         gap:"1em"
                     }}
                     className="course-col">
-                        <h2>1. AI Nedir?</h2>
-                        <p>Terminoloji </p>
-                        <p>Günümüzde derin öğrenmenin yapıp yapamadıkları ve diğer AI akımları </p>
+                        <h2>1. What is AI?</h2>
+                        <p>Terminology </p>
+                        <p>
+                            What Deep Learning can and can't do and the other AI trends </p>
                         <br></br><br></br>
-                        <h2>2. AI Projeleri </h2>
-                        <p>ML(Makine Öğrenmesi) ve DS(Veri Bilimi) projelerinde iş akışı </p>
-                        <p>Veri ve Ekiplerinin seçimi ve gereksinimleri </p>
-                        <p>AI için no-code çözümleri </p>
+                        <h2>2. AI Projects </h2>
+                        <p>Workflow in ML(Machine Learning) and DS(Data Science) projects </p>
+                        <p>Selection and requirements of Data and its Teams </p>
+                        <p>No-Code solutions for AI </p>
                     </div>
                    
                 </div>
@@ -65,19 +66,19 @@ function CourseDet(props) {
                         
                     }}
                     className="course-col">
-                        <h2>3. Şirket içi AI  </h2>
-                        <p>AI proje ve ekiplerinin şirket içindeki rolü </p>
-                        <p>Şirketin AI stratejisi ve AI dönüşümü </p>
-                        <p>AI ana uygulama alanları </p>
-                        <p>Pratik AI uygulamaları </p>
+                        <h2>3. On-premises AI  </h2>
+                        <p>The role of AI projects and teams within the company </p>
+                        <p>The company's AI strategy and AI transformation </p>
+                        <p>AI main application areas </p>
+                        <p>Practical AI applications </p>
                         <br></br><br></br>
-                        <h2>4. AI ve Etik  </h2>
-                        <p>AI gerçekte nedir? Kötü amaca hizmet edebilir mi? </p>
-                        <p>AI ve ekonomik etkiler </p>
-                        <p>AI ve istihdam </p>
+                        <h2>4. AI and Ethics  </h2>
+                        <p>What is AI really? Could it serve a bad purpose? </p>
+                        <p>AI and economic effects </p>
+                        <p>AI and employment </p>
                         <br></br><br></br>
 
-                        <h2>5. Sonuç ve kapanış   </h2>
+                        <h2>5. Conclusion and closing   </h2>
                     </div>
 
                     <div style={{width:"30%"}}className="course-img-wrapper">
@@ -98,7 +99,7 @@ function CourseDet(props) {
                         color:"white",
                         fontSize:"20px",
                         border:"none",
-                        borderRadius:"10px"}}>Hemen Kaydol</button>
+                        borderRadius:"10px"}}>Enroll Now</button>
                     </Popup>
         </div>
     );

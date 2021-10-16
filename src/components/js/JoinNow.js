@@ -27,10 +27,10 @@ function JoinNow(props) {
                     padding:"1em 2em",
 
                 }}>
-                    <h1 >Hemen Kaydol</h1>
+                    <h1 >Enroll Now</h1>
 
                     <br></br>
-                    <p>AIX ile Yapay Zekaya giriş eğitim programına şimdi kaydolun! Yapay zekayı <b>sıfır kod</b> ile işinize dahil edin. </p>
+                    <p>Enroll in the introductory AI training program with AIX now! Incorporate artificial intelligence into your business with <b>zero code</b></p>
                     <div style={{
                         marginTop:"2em"
                     }}>
@@ -42,7 +42,7 @@ function JoinNow(props) {
                         color:"white",
                         fontSize:"20px",
                         border:"none",
-                        borderRadius:"10px"}}>Hemen Kaydol</button>
+                        borderRadius:"10px"}}>Enroll Now</button>
                     </Popup>
                    </div>
                     </div>
