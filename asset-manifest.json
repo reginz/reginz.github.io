@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d7a27534.chunk.css",
+    "main.js": "/static/js/main.a2d05850.chunk.js",
+    "main.js.map": "/static/js/main.a2d05850.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.eadd8a1a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.eadd8a1a.js.map",
+    "static/css/2.1a36129a.chunk.css": "/static/css/2.1a36129a.chunk.css",
+    "static/js/2.56f25bbb.chunk.js": "/static/js/2.56f25bbb.chunk.js",
+    "static/js/2.56f25bbb.chunk.js.map": "/static/js/2.56f25bbb.chunk.js.map",
+    "static/js/3.90be7406.chunk.js": "/static/js/3.90be7406.chunk.js",
+    "static/js/3.90be7406.chunk.js.map": "/static/js/3.90be7406.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.1a36129a.chunk.css.map": "/static/css/2.1a36129a.chunk.css.map",
+    "static/css/main.d7a27534.chunk.css.map": "/static/css/main.d7a27534.chunk.css.map",
+    "static/js/2.56f25bbb.chunk.js.LICENSE.txt": "/static/js/2.56f25bbb.chunk.js.LICENSE.txt",
+    "static/media/HeroSection.css": "/static/media/Dark_background-min.cc9aad5b.png",
+    "static/media/NlpLanding.css": "/static/media/aixlanding.ecb12c53.webp",
+    "static/media/ModelTransferLanding.css": "/static/media/aixlanding_green_LQ.eda1fec5.webp",
+    "static/media/AgentLanding.css": "/static/media/aixlanding_grey.5ae442ba.webp",
+    "static/media/DataLanding.css": "/static/media/aixlanding_yellow.019985ac.jpg",
+    "static/media/edu.3af059f0.png": "/static/media/edu.3af059f0.png",
+    "static/media/BlogPage.css": "/static/media/wb.42aa117d.png",
+    "static/media/man.a91aadfc.png": "/static/media/man.a91aadfc.png",
+    "static/media/manwoman.37516e0a.jpg": "/static/media/manwoman.37516e0a.jpg",
+    "static/media/robot.cc7db9b6.png": "/static/media/robot.cc7db9b6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eadd8a1a.js",
+    "static/css/2.1a36129a.chunk.css",
+    "static/js/2.56f25bbb.chunk.js",
+    "static/css/main.d7a27534.chunk.css",
+    "static/js/main.a2d05850.chunk.js"
+  ]
+}
