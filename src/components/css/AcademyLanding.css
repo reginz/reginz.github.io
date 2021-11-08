@@ -15,7 +15,9 @@
 .col1 img{
     width: 100%;
 }
-
+#course-col-wrapper{
+    max-width: 900px;
+}
 @media screen and (max-width:900px) {
     .course-img-wrapper{
         display: none;
@@ -36,6 +38,7 @@
         padding: 1em;
     }
     #course-col-wrapper{
+        
         gap: 0 !important;
     }
 }
