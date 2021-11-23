@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.e676b39b.chunk.css",
-    "main.js": "/static/js/main.508b12ae.chunk.js",
-    "main.js.map": "/static/js/main.508b12ae.chunk.js.map",
+    "main.css": "/static/css/main.09e2cfeb.chunk.css",
+    "main.js": "/static/js/main.68e6c900.chunk.js",
+    "main.js.map": "/static/js/main.68e6c900.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.33b9ce9e.js",
     "runtime-main.js.map": "/static/js/runtime-main.33b9ce9e.js.map",
     "static/css/2.1a36129a.chunk.css": "/static/css/2.1a36129a.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.dce5c08d.chunk.js.map": "/static/js/3.dce5c08d.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.1a36129a.chunk.css.map": "/static/css/2.1a36129a.chunk.css.map",
-    "static/css/main.e676b39b.chunk.css.map": "/static/css/main.e676b39b.chunk.css.map",
+    "static/css/main.09e2cfeb.chunk.css.map": "/static/css/main.09e2cfeb.chunk.css.map",
     "static/js/2.6ac5ec8c.chunk.js.LICENSE.txt": "/static/js/2.6ac5ec8c.chunk.js.LICENSE.txt",
     "static/media/HeroSection.css": "/static/media/Dark_background-min.cc9aad5b.png",
     "static/media/NlpLanding.css": "/static/media/aixlanding.ecb12c53.webp",
@@ -29,7 +29,7 @@
     "static/js/runtime-main.33b9ce9e.js",
     "static/css/2.1a36129a.chunk.css",
     "static/js/2.6ac5ec8c.chunk.js",
-    "static/css/main.e676b39b.chunk.css",
-    "static/js/main.508b12ae.chunk.js"
+    "static/css/main.09e2cfeb.chunk.css",
+    "static/js/main.68e6c900.chunk.js"
   ]
 }
